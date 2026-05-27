@@ -37,11 +37,11 @@ const FAQS = [
   },
   {
     question: "Do you require a monthly membership subscription?",
-    answer: "Absolutely not. DriveReady is built as an ultra-premium, on-demand pay-as-you-go service. You only pay for what you need, when you need it—no hidden terms, contracts, or monthly bloat."
+    answer: "Absolutely not. carBB is built as an ultra-premium, on-demand pay-as-you-go service. You only pay for what you need, when you need it—no hidden terms, contracts, or monthly bloat."
   },
   {
     question: "How is a doorstep repair better than a tow truck?",
-    answer: "Standard towing wastes 2-3 hours of your morning, exposes you to grease, and runs the risk of damaging your luxury vehicle's bumper or alignment. With DriveReady, you stay clean inside finishing your morning coffee while we handle the repair in your driveway."
+    answer: "Standard towing wastes 2-3 hours of your morning, exposes you to grease, and runs the risk of damaging your luxury vehicle's bumper or alignment. with carBB, you stay clean inside finishing your morning coffee while we handle the repair in your driveway."
   },
   {
     question: "What types of vehicles do you handle?",
@@ -106,7 +106,7 @@ export default function App() {
               <Navigation className="text-[#faf8f5] w-5 h-5 rotate-45" />
             </div>
             <span className="font-display font-black text-2xl tracking-tight text-[#121211]">
-              Drive<span className="text-[#8c826c]">Ready</span>
+              car<span className="text-[#8c826c]">BB</span>
             </span>
           </div>
 
@@ -334,7 +334,7 @@ export default function App() {
                   </span>
                   <span className="text-[#8c826c] text-xs font-bold uppercase tracking-wider flex items-center gap-1.5">
                     <span className="w-1.5 h-1.5 bg-green-400 rounded-full animate-ping" />
-                    DriveReady Choice
+                    carBB Choice
                   </span>
                 </div>
                 <h3 className="text-2xl font-display font-extrabold text-white mb-6">
@@ -344,7 +344,7 @@ export default function App() {
                   {[
                     "Simply open WhatsApp",
                     "Instantly share your current location",
-                    "ReadyGo handles it immediately",
+                    "carBB handles it immediately",
                     "Stay clean, safe, and professional",
                     "A flawless recovery on your terms"
                   ].map((text, i) => (
@@ -395,7 +395,7 @@ export default function App() {
               {
                 icon: <MapPin className="w-8 h-8" />,
                 title: "2. Tech Dispatched",
-                desc: "A fully trained and certified DriveReady tech is dispatched to your driveway instantly.",
+                desc: "A fully trained and certified carBB tech is dispatched to your driveway instantly.",
                 step: "02"
               },
               {
@@ -437,7 +437,7 @@ export default function App() {
               <div className="w-12 h-12 bg-stone-900 rounded-2xl flex items-center justify-center border border-white/5">
                 <ShieldCheck className="text-[#8c826c] w-7 h-7" />
               </div>
-              <h2 className="text-3xl md:text-4xl font-display font-bold text-white leading-tight">The DriveReady Promise</h2>
+              <h2 className="text-3xl md:text-4xl font-display font-bold text-white leading-tight">The carBB Promise</h2>
               <p className="text-stone-400 text-lg leading-relaxed font-light">
                 Elite concierge service means we never leave you stranded. We guarantee rapid completion or pay you back for the delay.
               </p>
@@ -616,7 +616,7 @@ export default function App() {
             <span className="text-xs font-bold uppercase tracking-widest text-[#8c826c]">Save Your Day Now</span>
             <h2 className="text-4xl md:text-6xl font-display font-black text-white leading-tight">Ready to get moving?</h2>
             <p className="text-stone-400 text-lg md:text-xl font-light">
-              Don&apos;t wait around with grease on your sleeves. Let ReadyGo handle the stress while you handle the success.
+              Don&apos;t wait around with grease on your sleeves. Let carBB handle the stress while you handle the success.
             </p>
           </div>
           
@@ -642,7 +642,7 @@ export default function App() {
           </div>
           
           <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6 opacity-40 text-sm italic text-stone-400">
-            <span>&copy; 2026 DriveReady Elite Concierge</span>
+            <span>&copy; 2026 carBB Elite Concierge</span>
             <div className="flex gap-8">
               <span>Privacy Policy</span>
               <span>Terms of Service</span>
@@ -684,7 +684,7 @@ export default function App() {
             <div className="w-8 h-8 bg-[#121211] rounded-lg flex items-center justify-center">
               <Navigation className="text-[#faf8f5] w-4 h-4 rotate-45" />
             </div>
-            <span className="font-display font-bold text-sm text-[#121211]">DriveReady</span>
+            <span className="font-display font-bold text-sm text-[#121211]">carBB</span>
           </div>
           
           <div className="flex gap-8 text-xs font-bold text-stone-500 uppercase tracking-widest">

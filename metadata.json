@@ -1,5 +1,5 @@
 {
-  "name": "DriveReady",
+  "name": "carBB",
   "description": "Premium doorstep tire repair and auto-assistance concierge service.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
