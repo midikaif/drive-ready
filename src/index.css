@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  
+  --color-brand-primary: #121211; /* Rich Onyx Black */
+  --color-brand-accent: #8c826c; /* Elegant bronze/gold accent */
+  --color-brand-whatsapp: #15803d; /* Forest Green for high-contrast WhatsApp action */
+  --color-brand-cream: #faf8f5; /* Premium Eggshell/Cream bg */
+}
+
+@layer base {
+  body {
+    @apply bg-[#faf8f5] text-[#121211] font-sans antialiased selection:bg-[#121211]/10;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/70 backdrop-blur-2xl border border-[#121211]/10 shadow-xs;
+  }
+  
+  .glass-dark {
+    @apply bg-[#121211] border border-white/10 shadow-xl;
+  }
+}
